@@ -257,6 +257,7 @@ GameObject:
   - component: {fileID: 233684101}
   - component: {fileID: 233684100}
   - component: {fileID: 233684099}
+  - component: {fileID: 233684102}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -338,6 +339,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 233684097}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &233684102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 233684097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb58592bc79145047abac47cd760fed7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToMove: {fileID: 233684097}
+  cameraToReference: {fileID: 963194227}
 --- !u!1 &251778585
 GameObject:
   m_ObjectHideFlags: 0
